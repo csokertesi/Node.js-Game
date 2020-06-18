@@ -1,0 +1,13 @@
+! IMPORTANT ! You can't type _! Press SPACEBAR to write this character. Press CTRL+R to delete text. Press ENTER/RETURN to execute command.
+
+Valid Commands:
+	- game_reset           :: restart the game, set 'points' to 0
+	- game_restart         :: execute the reset command
+	- game_exit            :: Stop the application. Same as Ctrl+q
+	- game_pause           :: Pause the game. Press Ctrl+p to unpause. Same as Ctrl+p
+	- game_cheatcode_      :: Execute the cheat code after the _.
+	- window_title_        :: Set the window title. _ will be replaced with "space". Unlockable with CheatCode (for example: window_title_node_game)
+	- plr_auto_collect     :: Toggle AutoCollect. Unlockable with CheatCode.
+	- plr_icon_            :: set the player's icon to the char after the last '_' (for example: plr_icon_@)
+	- plr_colors_          :: set the available colors to argument (for example: plr_colors_red_green)
+		If color is invalid, the color will be white.
